@@ -1,0 +1,12 @@
+.site-filter {
+    padding-bottom: 47px;
+}
+
+.filter {
+    margin-bottom: 50px;
+    display: flex;
+    column-gap: 8px;
+    align-self: center;
+    flex-basis: calc((100% - 4 * 8px) / 5);
+    justify-content: center;
+}

@@ -1,0 +1,45 @@
+.address {
+    font-style: normal;
+    text-decoration: none;
+    padding-top: 20px;
+
+}
+
+.address-space {
+    margin-bottom: 9px;
+}
+
+.white-address {
+    @include font(14px, 400, 24px);
+    color: var(--white-text);
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    color: var(--accent-color);
+     }
+}
+
+.white-cont {
+    @include font(14px, 400, 24px);
+    color: var(--white-fog);
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    transition-property: color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    color: var(--accent-color);
+    }
+}

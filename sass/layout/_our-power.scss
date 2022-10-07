@@ -1,0 +1,40 @@
+.our-power {
+    padding-bottom: 47px;
+}
+
+.our-power-list {
+    display: flex;
+    column-gap: 30px;
+    /* flex-wrap: wrap;*/
+}
+
+.our-power-item {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+.our-power-icon-box {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-power-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.our-power-text {
+    @include font(14px, 400, 24px);
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+}
