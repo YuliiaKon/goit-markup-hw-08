@@ -1,3 +1,14 @@
+@media screen and (max-width: 767px) {
+    .whot-we-do {
+    display: none;}
+}
+
+@media screen and (min-width: 768px) {
+    .whot-we-do {
+    display: none;}
+}
+
+@media screen and (min-width: 1200px){
 .whot-we-do {
     padding-top: 47px;
 }
@@ -59,4 +70,5 @@
     text-transform: uppercase;
     color: #FFFFFF;
     padding-top: 27px;
+}
 }

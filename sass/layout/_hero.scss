@@ -1,23 +1,126 @@
-.hero {
-    background-color: #C4C4C4;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 1600px;
-    height: 600px;
-    margin: 0 auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
+
+@media screen and (max-width: 767px) {
+    .hero {
+        background-image: 
+        linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../img/mobile/mobile-header.jpg);
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 1600px;
+        /*height: 600px;*/
+        margin: 0 auto;
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
+
+    .hero-title {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.61;
+        text-align: center;
+        color: #FFFFFF;
+}
 }
 
-.hero-title {
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    color: #FFFFFF;
+@media screen and (min-device-pixel-ratio:2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .hero {
+    background-image: 
+    linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/mobile/mobile-header@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: 
+        linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../img/table/table-header.jpg);
+        background-color: #C4C4C4;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 1600px;
+        // height: 600px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
+
+
+    .hero-title {
+        width: 360px;
+        height: 84px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.61;
+        text-align: center;
+        color: #FFFFFF
+    }
+    
+}
+
+
+@media screen and (min-device-pixel-ratio:2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 1199px) {
+    .hero {
+        background-image: 
+        linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../img/table/table-header@2x.jpg);
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+    .hero {
+            background-image: 
+            linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../img/desck/desck-hero1.jpg);
+            background-color: #C4C4C4;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            max-width: 1600px;
+            height: 600px;
+            margin: 0 auto;
+            padding-top: 200px;
+            padding-bottom: 200px;
+        }
+    
+        .hero-title {
+            width: 696px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 60px;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+
+
+@media screen and (min-device-pixel-ratio:2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (max-width: 1200px) {
+    .hero {
+        background-image: 
+        linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../img/desck/desck-hero1@2x.jpg);
+    }
 }

@@ -1,22 +1,159 @@
+@media screen and (max-width: 767px) {
+
+.footer-container {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
 .footer {
+   /* display: flex;
+    align-items: center;;
+    justify-content: center;*/
     background: #2F303A;
     text-decoration: none;
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
 
 .logo-footer {
+    display: block;
+    text-align: center;
     text-decoration: none;
+    font-family: 'Raleway';
 }
 
 .web-footer {
-    @include font(26px, 700, 31px);
+    @include font(24px, 700, 28px);
     color: #2196F3;
     letter-spacing: 0.03em;
 }
 
 .studio-footer {
-    @include font(26px, 700, 31px);
+    @include font(24px, 700, 28px);
     color: #FFFFFF;
     letter-spacing: 0.03em;
 }
+
+.footer-title {
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 768px) 
+    {
+    .footer-space {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        }
+    
+    .footer-conteiner {
+    text-align: center;
+        }
+    
+    .footer {
+        /* display: flex;
+        align-items: center;
+        justify-content: center;*/
+        background: #2F303A;
+        text-decoration: none;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        }
+    
+    .logo-footer {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Raleway';
+        }
+    
+    .web-footer {
+        @include font(24px, 700, 28px);
+        color: #2196F3;
+        letter-spacing: 0.03em;
+            }
+    
+    .studio-footer {
+        @include font(24px, 700, 28px);
+        color: #FFFFFF;
+        letter-spacing: 0.03em;
+            }
+    
+    .footer-title {
+        text-align: center;
+            }
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+
+.footer {
+        background: #2F303A;
+        text-decoration: none;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+.footer-container {
+    margin-right: 0px;
+    flex-basis: 270px;
+}
+
+
+.footer-title {
+    text-align: center;
+    
+    }
+
+    .logo-footer {
+        text-decoration: none;
+        text-align: left;
+        font-family: 'Raleway';
+    }
+
+    .web-footer {
+        @include font(26px, 700, 31px);
+        color: #2196F3;
+        letter-spacing: 0.03em;
+    }
+
+    .studio-footer {
+        @include font(26px, 700, 31px);
+        color: #FFFFFF;
+        letter-spacing: 0.03em;
+    }
+        
+}
+
+/*
+    .footer-conteiner {
+        text-align: left;
+    }
+
+    .footer {
+            background: #2F303A;
+            text-decoration: none;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    
+        .logo-footer {
+            text-decoration: none;
+        }
+    
+        .web-footer {
+            @include font(26px, 700, 31px);
+            color: #2196F3;
+            letter-spacing: 0.03em;
+        }
+    
+        .studio-footer {
+            @include font(26px, 700, 31px);
+            color: #FFFFFF;
+            letter-spacing: 0.03em;
+        }
+    } */

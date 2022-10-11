@@ -20,6 +20,8 @@
 
     <header class="page-header">
         <div class="container page-header_container">
+            
+            
             <nav class="navigation">
                 <a href="./index.html" class="logo cursor"><span class="web">Web</span><span
                         class="studio">Studio</span></a>
@@ -42,13 +44,49 @@
                         </svg>
                         +38 096 111 11 11</a></li>
             </ul>
+<!----МЕНЮ ДЛЯ МОБІЛЬНИХ ПРИСТРОЇВ---->
+<button type="button" class="mobile-menu-btn" data-menu-open>
+    <svg class="mobile-menu-btn__icon" width="24" height="16">
+        <use href="./img/icons.svg#icon-icon-burger"></use>
+    </svg>
+</button>
+
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu__container">
+                <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                    <svg class="mobile-menu__close-icon" width="19" height="19">
+                        <use href="./img/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__nav list">
+                        <li><a href="" class="mobile-menu__nav_text">Студія</a></li>
+                        <li><a href="./portfolio.html" class="mobile-menu__nav_text">Портфоліо</a></li>
+                        <li><a href="" class="mobile-menu__nav_text">Контакти</a></li>
+                </ul>
+
+                <ul class="mobile-menu__contact list">
+                    <li><a class="mobile-menu__contact-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li><a class="mobile-menu__contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </ul>
+
+                <ul class="mobile-menu__social list">
+                    <li><a href="" class="mobile-menu__social_link">Instagram&nbsp&nbsp</a></li>
+                    <li><a href="" class="mobile-menu__social_link">Twitter&nbsp&nbsp</a></li>
+                    <li><a href="" class="mobile-menu__social_link">Facebook&nbsp&nbsp</a></li>
+                    <li><a href="" class="mobile-menu__social_link">Linkedin&nbsp&nbsp</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
         </div>
     </header>
 
     <main>
-        <!--Герой-->
-        <section class="hero">
-            <div class="container">
+        <!--Герой -->
+     <section class="hero">
+            <div class="container hero__container">
                 <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
                 <button type="button" data-modal-open class="button-primery cursor">Замовити послугу</button>
             </div>
@@ -56,13 +94,13 @@
 
         <!--Наші переваги, опис-->
         <section class="our-power section">
-            <div class="container">
+            <div class="container"> 
                 <!--Прихований заголовок наші переваги-->
                 <h2 hidden>Наші переваги</h2>
                 <ul class="our-power-list list">
                     <li class="our-power-item">
                         <div class="our-power-icon-box">
-                            <!--додати флекс та джистіфай і елайн зі значенням центр-->
+                
                             <svg class="our-power-icon-svg" width="70" height="70">
                                 <use href="./img/icons.svg#icon-antenna"></use>
                             </svg>
@@ -144,15 +182,35 @@
             </div>
         </section>
 
-        <!--Наша команда-->
-        <section class="team section ">
-            <div class="container">
+        <!--Наша команда -->
+     <section class="team section ">
+            <div class="container team-container">
                 <h2 class="team__title">Наша команда</h2>
                 <ul class="team__list list">
                     <li class="team__item">
                         <div class="team__border">
-                            <img class="team__photo" src="./img/ighorD.jpg" alt="Ігор Дем'яненко" width="270"
-                                height="260">
+                            <picture>
+                                
+                                <source srcset="
+                                ./img/desck/team-desck1.jpg 1x,
+                                ./img/desck/team-desck1-2x.jpg 2x" 
+                                media="(min-width: 1200px)">
+                                
+                                <source srcset="
+                                ./img/table/imgteam-table1.jpg 1x,
+                                ./img/table/imgteam-table1@2x.jpg 2x" 
+                                media="(min-width: 768px)">
+                                
+                                
+                                <source srcset="
+                                ./img/mobile/imgteam-mobile1.jpg 1x,
+                                ./img/mobile/imgteam-mobile1@2x.jpg 2x" 
+                                media="(max-width: 767px)">
+                            
+
+                                <img class="team__photo" src="./img/ighorD.jpg" alt="Ігор Дем'яненко">
+                            </picture>
+                            
                             <h3 class="team__name">Ігор Дем'яненко</h3>
                             <p class="team__text">Product Designer</p>
 
@@ -193,8 +251,25 @@
 
                     <li class="team__item">
                         <div class="team__border">
-                            <img class="team__photo" src="./img/olgaR.jpg" alt="Ольга Рєпіна" width="270"
-                                height="260">
+                            <picture>
+                                <source srcset="
+                                ./img/desck/team-desck2.jpg 1x,
+                                ./img/desck/team-desck2-2x.jpg 2x"
+                                media="(min-width: 1200px)">
+
+                                <source srcset="
+                                ./img/table/imgteam-table2.jpg 1x,
+                                ./img/table/imgteam-table2@2x.jpg 2x"
+                                 media="(min-width: 768px)">
+
+                                <source srcset="
+                                ./img/mobile/imgteam-mobile2.jpg 1x,
+                                ./img/mobile/imgteam-mobile2@2x.jpg 2x" 
+                                media="(max-width: 767px)">
+
+                                <img class="team__photo" src="./img/olgaR.jpg" alt="Ольга Рєпіна">
+                            </picture>
+
                             <h3 class="team__name">Ольга Рєпіна</h3>
                             <p class="team__text">Frontend Developer</p>
                         <ul class="social-list list">
@@ -234,8 +309,27 @@
 
                     <li class="team__item">
                         <div class="team__border">
-                            <img class="team__photo" src="./img/mykolaT.jpg" alt="Микола Тарасов" width="270"
-                                height="260">
+                            <picture>
+                            
+                                <source srcset="
+                                 ./img/desck/team-desck3.jpg 1x,
+                                ./img/desck/team-desck3-2x.jpg 2x"
+                                media="(min-width: 1200px)">
+
+                                <source srcset="
+                                ./img/table/imgteam-table3.jpg 1x,
+                                ./img/table/imgteam-table3@2x.jpg 2x" 
+                                media="(min-width: 768px)">
+
+                                <source srcset="
+                                ./img/mobile/imgteam-mobile3.jpg 1x,
+                                ./img/mobile/imgteam-mobile3@2x.jpg 2x"
+                                media="(max-width: 767px)">
+
+                                <img class="team__photo" src="./img/mykolaT.jpg" alt="Микола Тарасов">
+
+                            </picture>
+
                             <h3 class="team__name">Микола Тарасов</h3>
                             <p class="team__text">Marketing</p>
                         <ul class="social-list list">
@@ -275,8 +369,27 @@
 
                     <li class="team__item">
                         <div class="team__border">
-                            <img class="team__photo" src="./img/mykhayloE.jpg" alt="Михайло Єрмаков" width="270"
-                                height="260">
+
+                            <picture>
+
+                                <source srcset="
+                                ./img/desck/team-desck4.jpg 1x,
+                                ./img/desck/team-desck4-2x.jpg 2x"
+                                media="(min-width: 1200px)">
+
+                                <source srcset="
+                                ./img/table/imgteam-table4.jpg 1x,
+                                ./img/table/imgteam-table4@2x.jpg 2x"
+                                media="(min-width: 768px)">
+
+                                <source srcset="
+                                ./img/mobile/imgteam-mobile4.jpg 1x,
+                                ./img/mobile/imgteam-mobile4@2x.jpg 2x" 
+                                media="(max-width: 767px)">
+
+                            <img class="team__photo" src="./img/mykhayloE.jpg" alt="Михайло Єрмаков">
+                            
+                            </picture>
                             <h3 class="team__name">Михайло Єрмаков</h3>
                             <p class="team__text">UI Designer</p>
                             <ul class="social-list list">
@@ -318,14 +431,15 @@
         </section>
 
         <!-- Постійні клієнти -->
-        <section class="client section">
+       <section class="client section">
+            <h2 class="client__title">Постійні клієнти</h2>
             <div class="container client__container">
-                <h2 class="client__title">Постійні клієнти</h2>
-                <ul class="client__item list"> <!--client-list-->
+                
+                <ul class="client__item list"> 
 
-                    <li class="client__list"> <!--client-list-link-->
+                    <li class="client__list"> 
 
-                        <a href="#" class="client__link"> <!--client-link-->
+                        <a href="#" class="client__link"> 
                             <svg class="client__icon" width="106" height="60">
                                 <use href="./img/icons.svg#icon-company-one"></use>
                             </svg>
@@ -386,9 +500,8 @@
                 </ul>
 
             </div>
-        </section>
+        </section> 
     </main>
-
 
     <footer class="footer">
         <div class="footer-space container">
@@ -443,17 +556,18 @@
                     </li>
                 </ul>
             </div>
+        
             <!-- ПІДПИСКА -->
-            <div class="footer-subscribe">
+             <div class="footer-subscribe">
                 <h2 class="footer-title subscribe-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
                 <form class="footer-subscribe-form">
-                    <lable class="subscribe">
+                    <!-- <lable class="subscribe"> -->
                         <span class="footer-subscribe-form-wrapper">
                             <input class="footer-subscribe-input" type="email" name="mail-subscribe" required
                                 pattern="[email regex]" placeholder="E-mail">
 
                         </span>
-                    </lable>
+                   <!-- </lable> -->
                     <button type="submit" class="footer-subscribe-btn">Підписатися<svg class="footer-subscribe-icon"
                             width="24" height="24">
                             <use href="./img/icons.svg#icon-icon-send"></use>
@@ -463,7 +577,6 @@
 
         </div>
     </footer>
-
 
 
     <!-- ФОРМА ДЛЯ ЗАПОВнЕННЯ-->
@@ -532,7 +645,7 @@
     </div>
 
 
-
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 
 </body>
