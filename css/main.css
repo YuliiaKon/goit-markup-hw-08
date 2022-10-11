@@ -1449,6 +1449,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .whot-we-do {
+    display: flex;
     padding-top: 47px;
   }
   .h2 {
