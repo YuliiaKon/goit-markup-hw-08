@@ -3,7 +3,7 @@
     .hero {
         background-image: 
         linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../img/mobile/mobile-header.jpg);
+        url('../img/mobile/mobile-header.jpg');
         background-color: #C4C4C4;
         background-repeat: no-repeat;
         background-size: cover;
@@ -34,7 +34,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .hero {
     background-image: 
     linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../img/mobile/mob-hero2x.jpg);
+    url('../img/mobile/mob-hero2x.jpg');
     }
 }
 
@@ -42,7 +42,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .hero {
         background-image: 
         linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../img/table/table-header.jpg);
+        url('../img/table/table-header.jpg');
         background-color: #C4C4C4;
         background-repeat: no-repeat;
         background-size: cover;
@@ -78,7 +78,7 @@ screen and (min-resolution: 2dppx) and (max-width: 1199px) {
     .hero {
         background-image: 
         linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../img/table/table-header@2x.jpg);
+        url('../img/table/table-header@2x.jpg');
     }
 }
 
@@ -89,7 +89,7 @@ screen and (min-resolution: 2dppx) and (max-width: 1199px) {
     .hero {
             background-image: 
             linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../img/desck/desck-hero1.jpg);
+            url('../img/desck/desck-hero1.jpg');
             background-color: #C4C4C4;
             background-repeat: no-repeat;
             background-size: cover;
@@ -121,6 +121,6 @@ screen and (min-resolution: 2dppx) and (max-width: 1200px) {
     .hero {
         background-image: 
         linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../img/desck/desck-hero2x.jpg);
+        url('../img/desck/desck-hero2x.jpg');
     }
 }
