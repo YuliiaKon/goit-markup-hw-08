@@ -28,27 +28,6 @@
 }
 }
 
-// @media (min-device-pixel-ratio: 1),
-// (-webkit-min-device-pixel-ratio: 1),
-// (min-resolution: 96dpi),
-// (min-resolution: 1dppx) {
-//     .hero {
-//             background-image:
-//                 linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//                 url('../img/mobile/mob-hero1x.jpg');
-//                 }
-//             }
-
-// @media (min-device-pixel-ratio: 2),
-// (-webkit-min-device-pixel-ratio: 2),
-// (min-resolution: 192dpi),
-// (min-resolution: 2dppx) {
-//     .hero {
-//             background-image:
-//                 linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//                 url('../img/mobile/mob-hero2x.jpg');
-//         }
-//     }
 
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -150,3 +129,26 @@ screen and (min-resolution: 2dppx) and (max-width: 1200px) {
         url('../img/desck/desck-hero2x.jpg');
     }
 }
+
+
+// @media (min-device-pixel-ratio: 1),
+// (-webkit-min-device-pixel-ratio: 1),
+// (min-resolution: 96dpi),
+// (min-resolution: 1dppx) {
+//     .hero {
+//             background-image:
+//                 linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//                 url('../img/mobile/mob-hero1x.jpg');
+//                 }
+//             }
+
+// @media (min-device-pixel-ratio: 2),
+// (-webkit-min-device-pixel-ratio: 2),
+// (min-resolution: 192dpi),
+// (min-resolution: 2dppx) {
+//     .hero {
+//             background-image:
+//                 linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//                 url('../img/mobile/mob-hero2x.jpg');
+//         }
+//     }
